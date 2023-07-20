@@ -7,5 +7,3 @@ mount --bind /run /mnt/gentoo/run
 mount --make-slave /mnt/gentoo/run
 cp /etc/resolv.conf /mnt/gentoo/etc/resolv.conf
 chroot /mnt/gentoo /bin/bash
-source /etc/profile                                                                                         
-export PS1="(chroot) ${PS1}"
