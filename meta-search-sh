@@ -1,0 +1,5 @@
+for line in $(cat bloat); do
+	echo $line 
+	flatpak search $line | grep flathub >> flat-found
+	nix-env -qaP $line >> nix-found
+done
