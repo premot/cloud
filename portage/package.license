@@ -1,9 +1,0 @@
-
-#
-# # Accepting any license that permits redistribution
-# Accepting the license for linux-firmware
-app-arch/unrar unRAR license(s)
-sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
-sys-kernel/linux-firmware linux-fw-redistributable
-x11-drivers/nvidia-drivers NVIDIA-r2 license(s)
-sys-firmware/intel-microcode intel-ucode license(s)
